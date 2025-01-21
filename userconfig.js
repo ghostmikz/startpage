@@ -106,7 +106,7 @@ const default_config = {
             {
               name: "chatgpt",
               url: "https://chatgpt.com",
-              icon: "robot-face",
+              icon: "brand-openai",
               icon_color: palette.peach,
             },
             {
@@ -141,7 +141,7 @@ const default_config = {
             {
               name: "geeksforgeeks",
               url: "https://www.geeksforgeeks.org/",
-              icon: "code-asterisk",
+              icon: "code-circle",
               icon_color: palette.blue,
             },
           ],
