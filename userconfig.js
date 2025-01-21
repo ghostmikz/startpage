@@ -12,7 +12,7 @@ const default_config = {
     iconColor: palette.maroon,
   },
   disabled: [],
-  fastlink: "https://catppuccin.com/",
+  fastlink: "https://app.raindrop.io",
   openLastVisitedTab: true,
   tabs: [
     {
@@ -106,7 +106,7 @@ const default_config = {
             {
               name: "chatgpt",
               url: "https://chatgpt.com",
-              icon: "ai",
+              icon: "robot-face",
               icon_color: palette.peach,
             },
             {
@@ -138,6 +138,12 @@ const default_config = {
               icon: "code-minus",
               icon_color: palette.red,
             },
+            {
+              name: "geeksforgeeks",
+              url: "https://www.geeksforgeeks.org/",
+              icon: "code-asterisk",
+              icon_color: palette.blue,
+            },
           ],
         },
         {
@@ -166,87 +172,69 @@ const default_config = {
       ],
     },
     {
-      name: "social",
+      name: "dock",
       background_url: "src/img/banners/cbg-10.gif",
       categories: [
         {
-          name: "social media",
+          name: "school",
           links: [
             {
-              name: "telegram",
-              url: "https://web.telegram.org",
-              icon: "brand-telegram",
+              name: "school web",
+              url: "https://sw-beta.xcloud.mn",
+              icon: "world-www",
               icon_color: palette.green,
             },
             {
-              name: "facebook",
-              url: "https://www.facebook.com",
-              icon: "brand-facebook",
+              name: "school library",
+              url: "https://elibrary.xcloud.mn",
+              icon: "book",
               icon_color: palette.peach,
             },
             {
-              name: "reddit",
-              url: "https://www.reddit.com/r/unixporn",
-              icon: "brand-reddit",
+              name: "classroom",
+              url: "https://classroom.google.com/u/2/?pli=1",
+              icon: "chalkboard",
               icon_color: palette.red,
             },
           ],
         },
         {
-          name: "gaming",
+          name: "tools",
           links: [
             {
-              name: "IGN",
-              url: "https://www.ign.com/account/playlist/library",
-              icon: "device-gamepad",
+              name: "canva",
+              url: "https://www.canva.com/",
+              icon: "photo",
               icon_color: palette.green,
             },
             {
-              name: "steam",
-              url: "https://store.steampowered.com",
-              icon: "brand-steam",
+              name: "pixlr",
+              url: "https://pixlr.com/editor",
+              icon: "edit",
               icon_color: palette.peach,
             },
             {
-              name: "epicgames",
-              url: "https://store.epicgames.com",
-              icon: "brand-fortnite",
+              name: "figma",
+              url: "https://www.figma.com",
+              icon: "components",
               icon_color: palette.red,
-            },
-            {
-              name: "nintendo",
-              url: "https://store.nintendo.co.uk",
-              icon: "device-nintendo",
-              icon_color: palette.blue,
-            },
+            }
           ],
         },
         {
-          name: "video",
+          name: "suite",
           links: [
             {
-              name: "anilist",
-              url: "https://anilist.co/home",
-              icon: "brand-funimation",
+              name: "google drive",
+              url: "https://drive.google.com/drive/my-drive",
+              icon: "brand-google-drive",
               icon_color: palette.green,
             },
             {
-              name: "youtube",
-              url: "https://www.youtube.com",
-              icon: "brand-youtube",
+              name: "mail",
+              url: "https://mail.google.com/mail/u/0/",
+              icon: "brand-gmail",
               icon_color: palette.peach,
-            },
-            {
-              name: "patreon",
-              url: "https://www.patreon.com",
-              icon: "brand-patreon",
-              icon_color: palette.red,
-            },
-            {
-              name: "kyivstar",
-              url: "https://tv.kyivstar.ua",
-              icon: "star-filled",
-              icon_color: palette.blue,
             },
           ],
         },
