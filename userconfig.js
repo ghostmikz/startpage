@@ -4,7 +4,7 @@ const palette = macchiato;
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: "London",
+    location: "Mongolia",
     scale: "C",
   },
   clock: {
@@ -66,36 +66,36 @@ const default_config = {
           ],
         },
         {
-          name: "media",
+          name: "coding",
           links: [
             {
-              name: "уп",
-              url: "https://www.pravda.com.ua",
-              icon: "news",
+              name: "leetcode",
+              url: "https://leetcode.com",
+              icon: "code",
               icon_color: palette.green,
             },
             {
-              name: "mil.in.ua",
-              url: "https://mil.in.ua",
-              icon: "badge-filled",
+              name: "codeforces",
+              url: "https://codeforces.com",
+              icon: "brand-vscode",
               icon_color: palette.peach,
             },
             {
-              name: "куток",
-              url: "https://kutok.io",
-              icon: "border-radius",
+              name: "spoj",
+              url: "https://www.spoj.com/RGB7/",
+              icon: "brand-cpp",
               icon_color: palette.red,
             },
             {
-              name: "ґрунт",
-              url: "https://grnt.media",
-              icon: "eye-bolt",
+              name: "cses",
+              url: "https://cses.fi",
+              icon: "code-circle",
               icon_color: palette.blue,
             },
             {
-              name: "village",
-              url: "https://www.village.com.ua",
-              icon: "home-2",
+              name: "geeksforgeeks",
+              url: "https://www.geeksforgeeks.org/",
+              icon: "user-code",
               icon_color: palette.mauve,
             },
           ],
