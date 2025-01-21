@@ -12,7 +12,7 @@ const default_config = {
     iconColor: palette.maroon,
   },
   disabled: [],
-  fastlink: "https://app.raindrop.io",
+  fastlink: "https://catppuccin.com/",
   openLastVisitedTab: true,
   tabs: [
     {
@@ -20,90 +20,78 @@ const default_config = {
       background_url: "src/img/banners/cbg-9.gif",
       categories: [
         {
-          name: "bookmarks",
+          name: "social media",
           links: [
             {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
-              icon: "droplet-bolt",
+              name: "facebook",
+              url: "https://www.facebook.com/",
+              icon: "brand-facebook",
               icon_color: palette.green,
             },
             {
-              name: "musicForProgramming();",
-              url: "https://musicforprogramming.net",
-              icon: "binary-tree",
+              name: "instagram",
+              url: "https://www.instagram.com/",
+              icon: "brand-instagram",
               icon_color: palette.peach,
+            },
+            {
+              name: "tiktok",
+              url: "https://tiktok.com/",
+              icon: "brand-tiktok",
+              icon_color: palette.red,
             },
           ],
         },
         {
-          name: "workspace",
+          name: "music",
           links: [
             {
-              name: "gmail",
-              url: "https://mail.google.com",
-              icon: "brand-gmail",
+              name: "soundcloud",
+              url: "https://soundcloud.com",
+              icon: "brand-soundcloud",
               icon_color: palette.green,
             },
             {
-              name: "calendar",
-              url: "https://calendar.google.com",
-              icon: "calendar-filled",
+              name: "spotify",
+              url: "https://open.spotify.com",
+              icon: "brand-spotify",
               icon_color: palette.peach,
             },
             {
-              name: "sheets",
-              url: "https://docs.google.com/spreadsheets",
+              name: "youtube",
+              url: "https://www.youtube.com/",
               icon: "table",
               icon_color: palette.red,
             },
-            {
-              name: "drive",
-              url: "https://drive.google.com/drive/home",
-              icon: "brand-google-drive",
-              icon_color: palette.blue,
-            },
           ],
         },
         {
-          name: "coding",
+          name: "anime",
           links: [
             {
-              name: "leetcode",
-              url: "https://leetcode.com",
-              icon: "code",
+              name: "playmax",
+              url: "https://playmax.mn/",
+              icon: "player-play",
               icon_color: palette.green,
             },
             {
-              name: "codeforces",
-              url: "https://codeforces.com",
-              icon: "brand-vscode",
+              name: "9anime",
+              url: "https://9animetv.to/",
+              icon: "circle-number-9",
               icon_color: palette.peach,
             },
             {
-              name: "spoj",
-              url: "https://www.spoj.com/RGB7/",
-              icon: "brand-cpp",
+              name: "myanimelist",
+              url: "https://myanimelist.net/",
+              icon: "clipboard-data",
               icon_color: palette.red,
-            },
-            {
-              name: "cses",
-              url: "https://cses.fi",
-              icon: "code-circle",
-              icon_color: palette.blue,
-            },
-            {
-              name: "geeksforgeeks",
-              url: "https://www.geeksforgeeks.org/",
-              icon: "user-code",
-              icon_color: palette.mauve,
             },
           ],
         },
       ],
     },
     {
-      name: "dev",
+      name: "flow",
       background_url: "src/img/banners/cbg-8.gif",
       categories: [
         {
@@ -116,9 +104,9 @@ const default_config = {
               icon_color: palette.green,
             },
             {
-              name: "neptune",
-              url: "https://ui.neptune.ai",
-              icon: "circle-triangle",
+              name: "chatgpt",
+              url: "https://chatgpt.com",
+              icon: "ai",
               icon_color: palette.peach,
             },
             {
@@ -130,11 +118,11 @@ const default_config = {
           ],
         },
         {
-          name: "challenges",
+          name: "coding",
           links: [
             {
-              name: "kaggle",
-              url: "https://www.kaggle.com",
+              name: "codeforces",
+              url: "https://codeforces.com",
               icon: "brain",
               icon_color: palette.green,
             },
@@ -145,52 +133,40 @@ const default_config = {
               icon_color: palette.peach,
             },
             {
-              name: "exercism",
-              url: "https://exercism.org",
+              name: "spoj",
+              url: "https://www.spoj.com/RGB7/",
               icon: "code-minus",
               icon_color: palette.red,
-            },
-            {
-              name: "aoc",
-              url: "https://adventofcode.com",
-              icon: "brand-linktree",
-              icon_color: palette.blue,
             },
           ],
         },
         {
-          name: "resources",
+          name: "typing",
           links: [
             {
-              name: "dou",
-              url: "https://dou.ua",
-              icon: "brand-prisma",
+              name: "monkeytype",
+              url: "https://monkeytype.com",
+              icon: "keyboard",
               icon_color: palette.green,
             },
             {
-              name: "hackernews",
-              url: "https://news.ycombinator.com",
-              icon: "brand-redhat",
+              name: "typeracer",
+              url: "https://play.typeracer.com",
+              icon: "dashboard",
               icon_color: palette.peach,
             },
             {
-              name: "uber engineering",
-              url: "https://www.uber.com/en-GB/blog/london/engineering",
-              icon: "brand-uber",
+              name: "typing",
+              url: "https://www.typing.com",
+              icon: "space",
               icon_color: palette.red,
-            },
-            {
-              name: "netflix tech blog",
-              url: "https://netflixtechblog.com",
-              icon: "brand-netflix",
-              icon_color: palette.blue,
             },
           ],
         },
       ],
     },
     {
-      name: "chi ll",
+      name: "social",
       background_url: "src/img/banners/cbg-10.gif",
       categories: [
         {
