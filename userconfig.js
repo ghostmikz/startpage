@@ -91,7 +91,7 @@ const default_config = {
       ],
     },
     {
-      name: "flow",
+      name: "pc",
       background_url: "src/img/banners/cbg-8.gif",
       categories: [
         {
