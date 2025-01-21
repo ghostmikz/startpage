@@ -173,7 +173,7 @@ const default_config = {
     },
     {
       name: "dock",
-      background_url: "src/img/banners/cbg-10.gif",
+      background_url: "src/img/banners/cbg-6.gif",
       categories: [
         {
           name: "school",
