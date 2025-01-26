@@ -75,9 +75,9 @@ const default_config = {
               icon_color: palette.green,
             },
             {
-              name: "9anime",
-              url: "https://9animetv.to/",
-              icon: "circle-number-9",
+              name: "mirurotv",
+              url: "https://www.miruro.tv",
+              icon: "cat",
               icon_color: palette.peach,
             },
             {
